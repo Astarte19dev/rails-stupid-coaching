@@ -1,0 +1,19 @@
+<h1>Stupid Coaching</h1>
+
+
+<div class="card w-75">
+  <div class="card-body">
+           <p class="card-text"><h2><%= params[:question] %></h2></p>
+    <h5 class="card-title">- You</h5>
+  </div>
+</div>
+
+<div class="card w-75">
+  <div class="card-body">
+   <p class="card-text"><h2><%= @answer %></h2></p>
+    <h5 class="card-title">- Your coach</h5>
+  </div>
+</div>
+
+
+<%= link_to "Repose une question", "/ask", class: "text-decoration-none" %>
